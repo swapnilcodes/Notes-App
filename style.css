@@ -1,0 +1,71 @@
+#heading {
+  font-family: "Bahianita", cursive;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.search-form {
+  margin-left: 70%;
+}
+
+@media (max-width: 750px) {
+  .search-form {
+    margin-left: 0px;
+    margin-top: 20px;
+    display: block;
+  }
+}
+
+#main-form {
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 450px;
+  border: 0.4px outset black;
+  border-radius: 9px;
+  margin-top: 100px;
+}
+
+#title {
+  display: block;
+  margin: auto;
+  width: 240px;
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+#note {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 9px;
+}
+
+#add-note {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  width: 250px;
+  height: 50px;
+  font-family: "Fraunces", serif;
+}
+
+.notes {
+  margin-top: 40px;
+}
+
+.note {
+  display: block;
+  margin: auto;
+}
+
+#no-notes-title {
+  margin-top: 30px;
+  font-family: monospace;
+  margin-left: 40px;
+}
